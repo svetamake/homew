@@ -1,10 +1,22 @@
-category.html<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body>
-
+    <h1>Введите Ваш адрес, куда доставить</h1>
+    <hr>
+    <form action="http://htpp.org/get" method="get">
+        <p>Город</p>
+        <input type="text" name="city" placeholder="Куда везти?">
+        <p>Улица</p>
+        <input type="text" name="street" placeholder="Немного точнее">
+        <p>Дом, корпус и строение</p>
+        <input type="text" name="house" placeholder="Немного точнее">
+        <p>Пожелания и примечания, если есть</p>
+        <input type="text" name="notes">
+        <p><button><a href="ready.html">Продолжить</a></button></p>
+    </form>
 </body>
 </html>
